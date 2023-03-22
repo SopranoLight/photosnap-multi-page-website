@@ -518,6 +518,118 @@ a + span {
    order: 2;
   } */
 }
+@media(max-width:425px){
+  header{
+    flex-direction: column;
+    gap: 10px;
+    height: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+ 
+  .main-section {
+    flex-direction: column-reverse;
+    
+  }
+  .left-blok-main {
+    padding: 72px 24px 72px 33px;
+    height: 419px;
+    width: 425px;
+    position: relative;
+  }
+  .left-blok-main::before {
+    width: 128px;
+    height: 6px;
+    left: 33px;
+    top: 0px;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 3.33333px;
+    text-transform: uppercase;
+  }
+  .left-blok-main__paragraf{
+    margin-bottom: 23px;
+    width: 318px;
+  }
+  .right-block-main {
+    height: 294px;
+    width: 425px;
+    background-image: url(./img/fortephone.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .first-and-second-section {
+    flex-direction: column-reverse;
+    order: 2 1;
+    height: 690px;
+  }
+  .left-blok {
+    padding: 72px 24px 72px 33px;
+    width: 425px;
+    order: 1;
+  }
+  .right-block {
+    height: 285px;
+    width: 425px;
+    order: 2;
+  }
+  .info-section {
+    padding: 80px 10px;
+  }
+  .article-div {
+    width: 425px;
+    height: 375px;
+  }
+  .one-foto {
+    width: 425px;
+    height: 375px;
+  }
+  .two-foto {
+    width: 425px;
+    height: 375px;
+  }
+  .tree-foto {
+    width: 425px;
+    height: 375px;
+  }
+  .for-foto {
+    width: 425px;
+    height: 375px;
+  }
+  article:hover {
+    transform: translateY(-24px);
+    width: 375px;
+  }
+  article:hover::before {
+    transform: translateY(370px);
+    width: 375px;
+  }
+  footer {
+    flex-direction: column;
+    height: 100%;
+    padding: 56px 32px;
+    gap: 119px;
+  }
+  .wrapper-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 49px;
+  }
+  .logo-foter {
+    gap: 32px;
+  }
+  footer .footer-p {
+    gap: 34px;
+    align-items: center;
+  }
+  .link-fotter-icons {
+    align-items: center;
+    justify-content: center;
+  }
+}
 @media (max-width: 375px) {
  
   header{
