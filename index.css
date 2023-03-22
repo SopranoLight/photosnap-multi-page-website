@@ -529,6 +529,7 @@ a + span {
  
   .main-section {
     flex-direction: column-reverse;
+    width: 100%;
     
   }
   .left-blok-main {
@@ -557,7 +558,7 @@ a + span {
   }
   .right-block-main {
     height: 294px;
-    width: 425px;
+    width: 100%;
     background-image: url(./img/fortephone.png);
     background-position: center;
     background-size: cover;
