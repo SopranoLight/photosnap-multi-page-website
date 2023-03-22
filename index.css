@@ -568,7 +568,8 @@ a + span {
     height: 690px;
   }
   .left-blok {
-    padding: 72px 252px 72px 33px;
+    padding: 72px 24px 72px 33px;
+    width: 375px;
     order: 1;
   }
   .right-block {
