@@ -518,6 +518,46 @@ a + span {
    order: 2;
   } */
 }
+@media (max-width: 590px) {
+  header{
+    flex-direction: column;
+    gap: 10px;
+    height: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .left-blok-main{
+    padding: 100px 50px;
+  }
+  .left-blok{
+    padding: 100px 30px;
+  }
+  footer {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 56px 32px;
+    gap: 119px;
+  }
+  .wrapper-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 49px;
+  }
+  .logo-foter {
+    gap: 32px;
+  }
+  footer .footer-p {
+    gap: 34px;
+    align-items: center;
+  }
+  .link-fotter-icons {
+    align-items: center;
+    justify-content: center;
+  }
+}
+  
+
 @media(max-width:425px){
   header{
     flex-direction: column;
